@@ -1,0 +1,78 @@
+{
+  "id": "1329e756-1098-4583-ac8d-4108a86825ca",
+  "name": "Make Appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9a876e78-1ef0-49c7-b0c1-a43ace8b4991",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Okay, I can help you with that. What day do you want to come in?"
+            },
+            {
+              "lang": "en",
+              "value": "Sure, what day are you coming in?"
+            },
+            {
+              "lang": "en",
+              "value": "Okay, what day will work for you?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f759393b-e571-4330-86a8-8fdb9f8a4d20",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "And what time works for you?"
+            },
+            {
+              "lang": "en",
+              "value": "What time?"
+            },
+            {
+              "lang": "en",
+              "value": "Now, what time do you want the appointment?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Got it. I have your appointment scheduled on $date at $time. See you soon. Good-bye.",
+            "Thank You! I have booked you on $date at $time. See you soon. Good-bye.",
+            "Thank You! I have scheduled you on $date at $time. See you soon. Good-bye.",
+            "Thank you! I have set your appointment $date at $time. See you soon. Good-bye."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543721309,
+  "fallbackIntent": false,
+  "events": []
+}

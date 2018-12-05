@@ -1,0 +1,136 @@
+[
+  {
+    "id": "9fec75ca-a581-4d95-aae7-fcb38942e5f1",
+    "data": [
+      {
+        "text": "Can I set up an appointment for noon ",
+        "userDefined": false
+      },
+      {
+        "text": "on Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543494558
+  },
+  {
+    "id": "21d4807b-d789-4f79-bcb5-ccb70ce6ab41",
+    "data": [
+      {
+        "text": "I want to see a Doctor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543494558
+  },
+  {
+    "id": "423d13f4-8bc8-4d74-996c-a56147706fa9",
+    "data": [
+      {
+        "text": "I would like to make an appointment to family medicine?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543494558
+  },
+  {
+    "id": "416a20f2-bb63-420f-8e2e-31f37039c7bc",
+    "data": [
+      {
+        "text": "I have bad feeling can I make an appointment to see a doctor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543494558
+  },
+  {
+    "id": "0df27d57-438a-4c4e-b557-6106d95566c0",
+    "data": [
+      {
+        "text": "Can I see a doctor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543494558
+  },
+  {
+    "id": "9ab09d55-ca6d-43fb-aa7b-881e4b456a3f",
+    "data": [
+      {
+        "text": "Can I schedule service ",
+        "userDefined": false
+      },
+      {
+        "text": "at 4 PM",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1543494558
+  },
+  {
+    "id": "01c94d72-9f29-4ec3-9d41-fc8ba2d2eb8b",
+    "data": [
+      {
+        "text": "I need to make an appointment ",
+        "userDefined": false
+      },
+      {
+        "text": "at 3 PM",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543494558
+  }
+]
