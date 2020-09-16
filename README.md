@@ -1,1 +1,1 @@
-# Google calendar interactive bot
+# Google calendar interactive chatbot
